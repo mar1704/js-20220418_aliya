@@ -41,6 +41,7 @@ export default class SortableTable {
         </a>`;
     }).join('');
   }
+
   getTableRow(item) {
     const cells = this.headersConfig.map(({id, template}) => {
       return {
